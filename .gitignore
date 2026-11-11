@@ -1,0 +1,15 @@
+# 密钥 — 永不入库
+deepseek_key.tmp
+*.tmp
+
+# 上游数据镜像 (baojie/shiji-kb, CC BY-NC-SA 4.0; 首次运行自动拉取, 不构成再分发)
+shiji-kb-data/
+chapter_cache/
+
+# 第三方仓 (GPL-3.0, 自带.git, 本地保留不入库)
+jiangshan-map/
+
+# 运行时
+__pycache__/
+*.pyc
+.venv/
